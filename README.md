@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Application de Proposition de Rendez-vous Renaissance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Une belle application React au style Renaissance, adaptée aux mobiles, pour inviter quelqu'un à un rendez-vous avec élégance et style.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+- Style et langage Renaissance authentiques
+- Design responsive pour mobile et ordinateur
+- Belles transitions et animations
+- Intégration d'œuvres d'art de la Renaissance
 
-### `npm start`
+## Captures d'écran
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+L'application présente de beaux parchemins inspirés de la Renaissance, une typographie élégante et des œuvres d'art de maîtres comme Da Vinci et Raphaël.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pour commencer
 
-### `npm test`
+### Prérequis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14.0.0 ou supérieur)
+- npm (v6.0.0 ou supérieur)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clonez le dépôt :
+```
+git clone https://github.com/votrenomdutilisateur/renaissance-date-app.git
+cd renaissance-date-app
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Installez les dépendances :
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Démarrez le serveur de développement :
+```
+npm start
+```
 
-### `npm run eject`
+L'application s'ouvrira dans votre navigateur par défaut à l'adresse [http://localhost:3000](http://localhost:3000).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Utilisation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Envoyez l'URL à la personne que vous souhaitez inviter à un rendez-vous
+2. Elle verra une belle invitation de style Renaissance
+3. Elle peut accepter ou décliner l'invitation avec élégance
+4. L'application affichera un message de confirmation approprié
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Personnalisation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Vous pouvez personnaliser le texte, les images et le style en modifiant les composants concernés :
 
-## Learn More
+- `src/components/DateProposal.js` - Texte et mise en page de l'invitation principale
+- `src/components/RenaissanceBorder.js` - Bordure décorative de la page
+- `src/assets/images/` - Remplacez par vos œuvres d'art Renaissance préférées
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Dépendances
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React
+- styled-components
+- react-icons
 
-### Code Splitting
+## Remerciements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Inspiré par l'art et la littérature de la Renaissance
+- Crédits des œuvres d'art aux grands maîtres de la période Renaissance
+- Police : Cormorant Garamond (Google Fonts)
 
-### Analyzing the Bundle Size
+## Licence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
